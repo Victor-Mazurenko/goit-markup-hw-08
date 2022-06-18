@@ -1,0 +1,31 @@
+.subscribe-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  background: var(--focus-color-text);
+  border-radius: 4px;
+  border-color: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+
+
+  &:hover {
+    background-color: #188ce8;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-top: 20px;
+  }
+}
+
+.subscribe-btn-footer {
+  align-items: center;
+}
+
+.subscribe-btn__icon {
+  margin-left: 10px;
+}

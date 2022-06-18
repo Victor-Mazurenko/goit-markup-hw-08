@@ -1,0 +1,57 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: var(--header-color-text);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.section,
+.our-team-section {
+  @media screen and (max-width: 1169px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
+.page-header {
+  position: relative;
+  border-bottom: 1px solid var(--border-header-color);
+}
+
+.site-nav .current {
+  color: var(--focus-color-text);
+}
+
+.list .current {
+  background-color: var(--focus-color-text);
+  color: var(--white-color-text);
+}
